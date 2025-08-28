@@ -25,7 +25,7 @@ import org.dsa.Main;
  *   - Space Complexity: O(1)
  */
 
-
+// Since it is sorted, Binary Search will help to solve the problem in O(log n)
 public class MaximumSubArray {
     public static int get(int[] nums) {
         var index = 1;
